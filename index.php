@@ -3,26 +3,32 @@
 	<head>
 		<title>Javascript Events</title>
 		<meta charset="utf-8"/>
+		<script type="text/javascript" src="js/scripts.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+		<!--links to bootstrap, jquery-->
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
 		<h1>Javascript Events</h1>
 		<h2>Examples</h2>
-		<h3>On Click</h3>
-		<div id="click"
-			  onclick="document.getElementById('click').innerHTML = 'Thank you.';">
-			Click Me
+		<div>
+			<h3>Change Text Color</h3>
+			<p id="demo" onclick="myFunction()">Click me to change my text color.</p>
 		</div>
-		<h3>On Mouse Over and Mouse Out</h3>
-		<div id="mouse"
-			  onmouseover="document.getElementById('mouse').style.backgroundColor = 'red';"
-			  onmouseout="document.getElementById('mouse').style.backgroundColor = 'blue';">
-			Hover over me.
+		<div>
+			<h3>Copy Text</h3>
+			<input type="text" id="field1" value="I'm not doppelganger">
+			<input type="text" id="field2">
+			<button onclick="myOtherFunction()">Copy Text</button>
 		</div>
-		<h3>Bill Creator</h3>
-		<figure>
-			<img src="images/bill.jpg">
-			<figcaption>Figure 1: Bill Murry</figcaption>
-		</figure>
 	</body>
 </html>
