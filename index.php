@@ -17,6 +17,8 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	</head>
 
+	<!--this is very basic but I am planning on actively working and experimenting on Javascript-->
+
 	<body>
 		<h1>Javascript Events</h1>
 		<h2>Examples</h2>
@@ -26,7 +28,7 @@
 		</div>
 		<div>
 			<h3>Copy Text</h3>
-			<input type="text" id="field1" value="I'm not doppelganger">
+			<input type="text" id="field1" value="I'm not a doppelganger">
 			<input type="text" id="field2">
 			<button onclick="myOtherFunction()">Copy Text</button>
 		</div>
